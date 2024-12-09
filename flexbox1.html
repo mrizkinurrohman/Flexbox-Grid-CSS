@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        align-items: stretch;
+        background-color: #f1f1f1;
+      }
+
+      .container div {
+        color: white;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+
+      .satu {
+        background-color: lightblue;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 75px;
+      }
+
+      .dua {
+        background-color: lightgreen;
+        flex-grow: 3;
+        flex-shrink: 2;
+        flex-basis: 150px;
+      }
+
+      .tiga {
+        background-color: lightcoral;
+        flex-grow: 1;
+        flex-shrink: 3;
+        flex-basis: 100px;
+      }
+
+      .empat {
+        background-color: lightsalmon;
+        flex-grow: 4;
+        flex-shrink: 3;
+        flex-basis: 50px;
+      }
+
+      .lima {
+        background-color: lightseagreen;
+        flex-grow: 2;
+        flex-shrink: 2;
+        flex-basis: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="satu">1</div>
+      <div class="dua">2</div>
+      <div class="tiga">3</div>
+      <div class="empat">4</div>
+      <div class="lima">5</div>
+    </div>
+  </body>
+</html>
